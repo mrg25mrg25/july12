@@ -2,26 +2,66 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+/* css beings  */
+/* nabvar */
+/* the checkbox  */
+.nav_phone{
+    position: relative;
 }
+.nav_links{
+    display: none;
+    position: absolute;
+    top: 10vh;
+    right: 2%;
+    width: 16rem;
+    text-align: center;
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
   }
+  label input:checked ~ .nav_links{
+  display: flex;
+  flex-direction: column;
+
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:720px){
+    .nav{
+        display: none;
+    }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+@media screen and (min-width:720px){
+    .nav_phone{
+        display: none;
+    }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
