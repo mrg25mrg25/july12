@@ -1,52 +1,44 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-/* css beings  */
-/* nabvar */
-/* the checkbox  */
-.nav_phone{
-    position: relative;
+ /* css beings from here  */
+ /* google fonts  */
+ @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&display=swap');
+ p{
+    font-family: 'Libre Baskerville', serif;
 }
-.nav_links{
+ /* navbar */ 
+ .links{
     display: none;
-    position: absolute;
-    top: 10vh;
-    right: 2%;
-    width: 16rem;
-    text-align: center;
-
-  }
-  label input:checked ~ .nav_links{
-  display: flex;
-  flex-direction: column;
-
-  }
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media screen and (max-width:720px){
-    .nav{
-        display: none;
-    }
+ }
+ label input:checked ~ .links{
+display: flex;
+background-image:url("./\(nicola\)/img/care.jpg");
+background-position: center;
+background-size: cover;
 }
+.nav{
+    background-image: url("./\(nicola\)/img/care.jpg");
+}
+/* health  */
+.health{
+    background-image: url("./\(nicola\)/img/white.png");
+}
+/* support */
+.support{
+    background:linear-gradient(45deg,rgba(173, 104, 140, 0.6)
+    ,rgba(179, 53, 118, 0.6)),url("./\(nicola\)/img/gaja (1).jpg");
 
-@media screen and (min-width:720px){
-    .nav_phone{
-        display: none;
-    }
+
+    background-position: center;
+    background-size: cover;
+    clip-path: circle(32.6% at 0 0);
+}
+.support2{
+    background: linear-gradient(rgba(72, 219, 251,0.6)
+    ,rgba(72, 219, 251,0.6)),url("./\(nicola\)/img/support.png");
+   background-position: center;
+   background-size: cover;
 }
 
 
@@ -56,12 +48,4 @@
 
 
 
-
-
-
-
-
-
-
-
-
+ 

@@ -1,11 +1,21 @@
 import React from 'react'
-import Navbar from "./(nicola)/Navbar/page"
-import Navbar_phone from "./(nicola)/Navbar_phone/page"
+import Health  from "./(nicola)/Health/page"
+import Care from "./(nicola)/Care/page"
+import Support from "./(nicola)/Support/page"
+import Nav from "./(nicola)/Nav/page"
+import Contact from "./(nicola)/Contact/page"
+
 export default function page() {
   return (
     <div>
-      <Navbar/>
-      <Navbar_phone/>
+
+      <Nav/>
+      <Health/>
+      <Care/>
+      <Support/>
+      <Contact/>
+      
     </div>
   )
 }
+
