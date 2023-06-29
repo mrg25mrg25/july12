@@ -7,3 +7,29 @@
  p{
     font-family: 'Libre Baskerville', serif;
 }
+/* nav  */
+@media screen and (max-width:640px) { 
+label input:checked ~ .links{
+  display: flex;
+  }
+  .links{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 6rem;
+    background: linear-gradient(to right, rgba(0, 60, 255, 0.3),rgba(2, 32, 131, 0.3)),url("./\(nicola\)/img/gaja (2).jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 2%;
+  }
+}
+
+.navbar{
+  background: linear-gradient(to left, rgba(0, 60, 255, 0.3),rgba(2, 32, 131, 0.3)),url("./\(nicola\)/img/care.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+
+
