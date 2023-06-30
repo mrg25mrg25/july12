@@ -7,9 +7,9 @@ export default function page() {
   return (
     <div>
       <Navbar/>
-      {/* <Health/>
+       <Health/>
       <Care/>
-      <Support/> */}
+      <Support/> 
     </div>
   )
 }
