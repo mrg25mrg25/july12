@@ -1,7 +1,6 @@
 
 import React from 'react'
-import Image from 'next/image'
-import img_health from "../img/dr.jpg"
+
 
 export default function page() {
   return (
