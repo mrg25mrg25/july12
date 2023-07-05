@@ -31,5 +31,32 @@ label input:checked ~ .links{
   background-size: cover;
 }
 
+/* health */
+
+.health{
+  background:linear-gradient(to bottom,
+  rgba(245, 39, 0, 0.03),rgba(63, 7, 136, 0.5))
+  ,url("./\(nicola\)/img/j3.png");
+  background-position: center;
+  background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
