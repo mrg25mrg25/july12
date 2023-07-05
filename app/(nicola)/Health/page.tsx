@@ -11,7 +11,7 @@ export default function page() {
           <div className='text-5xl drop-shadow-md '>
             <p className='drop-shadow-md '>your future depends</p>
             <p> on your health</p>
-            <p>bitc\h</p>
+            <p>bitch</p>
            </div>
           <p className='mt-2'>isn't it tine to work on your own body?</p>
           <a href="https://www.who.int/"target='blank' className=''><p className='py-2 mx-auto sm:ml-0
