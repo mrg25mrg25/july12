@@ -2,8 +2,15 @@ import React from 'react'
 
 export default function page() {
   return (
-   <div className="main py-20">
-     <p>aibar ki korba</p>
+  <div className="health">
+    <div className="main">
+      <div className="left">
+        left
+      </div>
+      <div className="right">
+        right
+      </div>
+    </div>
   </div>
   )
 }
