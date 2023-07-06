@@ -4,7 +4,7 @@ export default function page() {
   return (
   <div className="health">
     <div className="main py-20">
-      <div className="text">
+      <div className="text capitalize text-center font-bold tracking-wider">
         <p>fuck you</p>
         <p>dirty asshole</p>
         <p>dont mess with me bitch</p>
