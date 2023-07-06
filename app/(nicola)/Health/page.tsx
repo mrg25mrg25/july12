@@ -7,6 +7,7 @@ export default function page() {
       <div className="text">
         <p>fuck you</p>
         <p>dirty asshole</p>
+        <p>dont mess with me bitch</p>
       </div>
       <div className="description">
          <p className='w-3/5 mx-auto text-center'>What do you mean by human health?
